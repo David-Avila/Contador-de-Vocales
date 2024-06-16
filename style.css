@@ -1,0 +1,48 @@
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column nowrap;
+}
+
+body{
+    margin: 0;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+
+    font-family: 'Courier New', Courier, monospace;
+
+    background-color: #27272b;
+    color: whitesmoke;
+}
+
+.title{
+    font-size: 4rem;
+    filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.589));
+}
+
+.container{
+    gap: 20px;
+    width: 60%;
+    height: 60%;
+}
+
+#input{
+    border-radius: 25px;
+    padding: 5px;
+    border: none
+}
+
+button{
+    padding: 5px 10px;
+    border: none;
+    border-radius:20px;
+
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover{
+    border-radius: 5px;
+}

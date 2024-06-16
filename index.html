@@ -9,11 +9,15 @@
     <script src="script.js" defer></script>
 
 </head>
-<body>
-    <h1>Contador de Vocales</h1>
+<body class="flex">
+    <h1 class="title">Contador de Vocales</h1>
 
-    <div class="contador">
-        <input type="text" id="input">
+    <div class="container flex">
+        <label for="instruccion">Escribe aqui el texto a comprobar</label>
+        <div>
+            <input type="text" id="input">
+            <button onclick="resetInput()">Limpiar</button>
+        </div>
         <label for="output" id="salida">Cantidad de vocales: </label>
         <button class="btnContar" onclick="contarVariables()">Contar vocales</button>
     </div>

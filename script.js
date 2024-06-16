@@ -13,5 +13,8 @@ function contarVariables(){
     }
 
     document.getElementById("salida").innerText += amount;
+}
 
+function resetInput(){
+    document.getElementById("input").value = "";
 }
