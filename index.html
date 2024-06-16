@@ -14,17 +14,17 @@
 
     <div class="container flex column">
         <label for="instruccion">Escribe aqui el texto a comprobar</label>
-        <div class="flex row">
+        <div class="flex row gap">
             <input type="text" id="input">
             <button onclick="resetInput()">Limpiar</button>
         </div>
         <label for="output" id="salida">Cantidad de vocales: </label>
-        <button class="btnContar" onclick="contarVariables()">Contar vocales</button>
+        <button class="btn" class="btnContar" onclick="contarVariables()">Contar vocales</button>
     </div>
 
     <div class="line"></div>
 
-    <button onclick="goToGithub()">Codigo Fuente</button>
+    <button class="btn" onclick="goToGithub()">Codigo Fuente</button>
 
 </body>
 </html>
