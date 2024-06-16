@@ -3,7 +3,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-flow: column nowrap;
+}
+
+.row{
+	flex-flow: row wrap;
+}
+
+.column{
+	flex-flow: column nowrap;
 }
 
 body{
