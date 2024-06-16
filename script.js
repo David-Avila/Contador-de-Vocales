@@ -18,3 +18,7 @@ function contarVariables(){
 function resetInput(){
     document.getElementById("input").value = "";
 }
+
+function goToGithub(){
+    window.open("https://github.com/David-Avila/Contador-de-Vocales", "_self")
+}
