@@ -12,7 +12,7 @@ function contarVariables(){
         }
     }
 
-    document.getElementById("salida").innerText += amount;
+    document.getElementById("salida").innerText = "Cantidad de vocales: " +  amount;
 }
 
 function resetInput(){
