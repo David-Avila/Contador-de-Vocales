@@ -1,17 +1,17 @@
 
 function contarVariables(){
     const inputString = document.getElementById("input").value;
-    const vocales = "aeiouAEIOU";
-    let cantidad = 0;
+    const vocals = "aeiouAEIOU";
+    let amount = 0;
 
     if (inputString){
         for (let i = 0; i < inputString.length; i++){
-            if (vocales.includes(inputString[i])){
-                cantidad++;
+            if (vocals.includes(inputString[i])){
+                amount++;
             }
         }
     }
 
-    document.getElementById("salida").innerText += cantidad;
+    document.getElementById("salida").innerText += amount;
 
 }
